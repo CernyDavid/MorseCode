@@ -106,7 +106,7 @@ namespace morsecode
             char[] result = text.ToCharArray();
             return result;
         }
-        public string[] SplitCoded(string text)
+        private string[] SplitCoded(string text)
         {
             string[] symbols = text.Split(" ");
             return symbols;
